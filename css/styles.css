@@ -30,7 +30,7 @@ a {
     letter-spacing: 0.32px;
 }
 
-.email:hover .email:focus {
+.email:hover, .email:focus {
     color: #404BBF;
 }
 
@@ -46,7 +46,7 @@ a {
     color: #4D5AE5;
 }
 
-.studio-logo {
+header .studio-logo {
     color: #2E2F42;
 }
 
@@ -88,16 +88,18 @@ button {
     letter-spacing: 0.64px;
     color: #fff;
     background-color: #4D5AE5;
+    font-family: Roboto, sans-serif;
+    line-height: 150%;
 
 }
 
-.head-button:hover {
+.head-button:hover, .head-button:focus {
     background-color: #404BBF;
 }
 
 /* Second Section */
 
-.second-section h3 {
+.second-section-title {
     font-size: 20px;
     letter-spacing: 0.4px;
     font-weight: 500;
@@ -105,7 +107,7 @@ button {
 
 }
 
-.second-section p {
+.second-section-text {
     font-size: 16px;
     letter-spacing: 0.32px;
 }
@@ -116,7 +118,7 @@ button {
     background-color: #F4F4FD;
 }
 
-.third-section h2 {
+.third-section-main-title {
     font-size: 36px;
     font-weight: 700;
     line-height: 111.111%;
@@ -125,21 +127,25 @@ button {
     text-align: center;
 }
 
-.third-section h3 {
+.lishka {
+    background-color: #ffffff;
+}
+
+.third-section-title {
     font-size: 20px;
     letter-spacing: 0.4px;
     font-weight: 500;
     line-height: 120%;
 }
 
-.third-section p {
+.third-section-text {
     font-size: 16px;
     letter-spacing: 0.32px;
 }
 
 /* Forth section */
 
-.forth-section h2 {
+.forth-section-main-title {
     font-size: 36px;
     font-weight: 700;
     line-height: 111.111%;
@@ -147,21 +153,21 @@ button {
     text-transform: capitalize;
 }
 
-.forth-section h3 {
+.forth-section-title {
     font-size: 20px;
     letter-spacing: 0.4px;
     font-weight: 500;
     line-height: 120%;
 }
 
-.forth-section p {
+.forth-section-text {
     font-size: 16px;
     letter-spacing: 0.32px;
 }
 
 /* Footer */
 
-footer {
+.site-footer {
     background-color: #2E2F42;
 }
 
@@ -171,7 +177,7 @@ footer {
     color: #F4F4FD;
 }
 
-.studio-logo-footer {
+.site-footer .studio-logo {
     color: #F4F4FD;
 }
 
