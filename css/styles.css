@@ -1,0 +1,191 @@
+body {
+    font-family: Roboto, sans-serif;
+    color:#434455;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    font-weight: Regular;
+    font-style: normal;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h2, h3 {
+    color: #2E2F42;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: #fff;
+}
+
+/* Contacts(header) */
+.email, .phone-num {
+    font-style: normal;
+    color: #434455;
+}
+
+.email:hover, .phone-num:focus, .email:focus, .phone-num:hover {
+    color: #4D5AE5;
+}
+
+/* Logotype */
+
+.logo {
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    line-height: 116.667%;
+}
+
+.web-logo {
+    color: #4D5AE5;
+}
+
+.studio-logo {
+    color: #2E2F42;
+}
+
+/* Navigation */
+
+.nav-studio, .nav-portfolio, .nav-contacts {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.32px;
+    color: #2E2F42;
+}
+
+.nav-studio:active, .nav-portfolio:active, .nav-contacts:active {
+    color: #404BBF;
+}
+
+/* First section */
+
+.first-section {
+    background-color: #2E2F42;
+}
+
+.main-heading {
+    color: #fff;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 107.143%;
+    letter-spacing: 1.12px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.head-button {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.64px;
+    color: #fff;
+    background-color: #4D5AE5;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    padding: 16px 32px;
+    border-radius: 4px;
+
+}
+
+.head-button:hover {
+    background-color: #404BBF;
+}
+
+/* Second Section */
+
+.second-section h3 {
+    font-size: 20px;
+    letter-spacing: 0.4px;
+    font-weight: 500;
+    line-height: 120%;
+
+}
+
+.second-section p {
+    font-size: 16px;
+    letter-spacing: 0.32px;
+}
+
+/* Third Section */
+
+.third-section {
+    background-color: #F4F4FD;
+}
+
+.third-section h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 111.111%;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.third-section h3 {
+    font-size: 20px;
+    letter-spacing: 0.4px;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.third-section p {
+    font-size: 16px;
+    letter-spacing: 0.32px;
+}
+
+/* Forth section */
+
+.forth-section h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 111.111%;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+.forth-section h3 {
+    font-size: 20px;
+    letter-spacing: 0.4px;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.forth-section p {
+    font-size: 16px;
+    letter-spacing: 0.32px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #2E2F42;
+}
+
+.footer-text {
+    font-size: 16px;
+    letter-spacing: 0.32px;
+    color: #F4F4FD;
+}
+
+.studio-logo-footer {
+    color: #F4F4FD;
+}
+
+
+
+
+
+
+
+
+
