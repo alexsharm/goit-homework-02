@@ -5,6 +5,8 @@ body {
     font-weight: Regular;
     font-style: normal;
     background-color: #ffffff;
+    letter-spacing: 0.02em;
+    font-size: 16px;
 }
 
 ul {
@@ -27,7 +29,6 @@ a {
 
 .email {
     color: #434455;
-    letter-spacing: 0.32px;
 }
 
 .email:hover, .email:focus {
@@ -53,9 +54,7 @@ header .studio-logo {
 /* Navigation */
 
 .nav-studio {
-    font-size: 16px;
     font-weight: 500;
-    letter-spacing: 0.32px;
     color: #2E2F42;
 }
 
@@ -75,7 +74,6 @@ header .studio-logo {
     font-size: 56px;
     font-weight: 700;
     line-height: 107.143%;
-    letter-spacing: 1.12px;
 }
 
 button {
@@ -83,9 +81,8 @@ button {
 }
 
 .head-button {
-    font-size: 16px;
     font-weight: 500;
-    letter-spacing: 0.64px;
+    letter-spacing: 0.04em;
     color: #fff;
     background-color: #4D5AE5;
     font-family: Roboto, sans-serif;
@@ -101,15 +98,9 @@ button {
 
 .second-section-title {
     font-size: 20px;
-    letter-spacing: 0.4px;
     font-weight: 500;
     line-height: 120%;
 
-}
-
-.second-section-text {
-    font-size: 16px;
-    letter-spacing: 0.32px;
 }
 
 /* Third Section */
@@ -122,7 +113,6 @@ button {
     font-size: 36px;
     font-weight: 700;
     line-height: 111.111%;
-    letter-spacing: 0.72px;
     text-transform: capitalize;
     text-align: center;
 }
@@ -133,14 +123,8 @@ button {
 
 .third-section-title {
     font-size: 20px;
-    letter-spacing: 0.4px;
     font-weight: 500;
     line-height: 120%;
-}
-
-.third-section-text {
-    font-size: 16px;
-    letter-spacing: 0.32px;
 }
 
 /* Forth section */
@@ -149,20 +133,13 @@ button {
     font-size: 36px;
     font-weight: 700;
     line-height: 111.111%;
-    letter-spacing: 0.72px;
     text-transform: capitalize;
 }
 
 .forth-section-title {
     font-size: 20px;
-    letter-spacing: 0.4px;
     font-weight: 500;
     line-height: 120%;
-}
-
-.forth-section-text {
-    font-size: 16px;
-    letter-spacing: 0.32px;
 }
 
 /* Footer */
@@ -172,8 +149,6 @@ button {
 }
 
 .footer-text {
-    font-size: 16px;
-    letter-spacing: 0.32px;
     color: #F4F4FD;
 }
 
